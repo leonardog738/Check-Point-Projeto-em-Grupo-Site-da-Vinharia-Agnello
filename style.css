@@ -11,6 +11,7 @@ body {
     background-color: #0f172a;
     color: #f1f5f9;
     line-height: 1.6;
+    
 }
 
 /* HEADER */
@@ -25,7 +26,7 @@ header {
 }
 
 /* MENU */
-.menu-link-selecionado{
+.menu-link-selecionado {
     background-color: #7c3aed;
     color: #f1f5f9;
     text-decoration: none;
@@ -35,7 +36,8 @@ header {
     border-radius: 5px;
     border: 2px solid transparent;
 }
-.menu-link{
+
+.menu-link {
     color: #f1f5f9;
     text-decoration: none;
     margin: 0 10px;
@@ -66,8 +68,8 @@ header {
     max-width: 1800px;
     margin: 40px auto;
     background: linear-gradient(135deg, #1e1b4b, #312e81);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
 }
 
 /* TOPO */
@@ -81,7 +83,7 @@ header {
 }
 
 .bloco-topo img {
-  
+
     width: 45px;
     height: 45px;
 }
@@ -95,7 +97,7 @@ header {
 .bloco-conteudo {
     display: flex;
     justify-content: space-between;
-   align-items: center;
+    align-items: center;
     gap: 30px;
 }
 
@@ -107,7 +109,7 @@ header {
 }
 
 /* BOTÃO */
-button{
+button {
     background-color: #7c3aed;
     color: white;
     border: none;
@@ -131,7 +133,7 @@ button{
 .bloco-imagem {
     flex: 1;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
 }
 
 .bloco-imagem img {
@@ -139,8 +141,8 @@ button{
     max-width: 200px;
     height: auto;
     border-radius: 0;
-    border: none; 
-    mix-blend-mode: screen; 
+    border: none;
+    mix-blend-mode: screen;
     mask-image: linear-gradient(to left, black 80%, transparent 100%);
     -webkit-mask-image: linear-gradient(to left, black 80%, transparent 100%);
 }
@@ -159,7 +161,7 @@ button{
 
 .produto:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     border: 2px solid #ffffff5f;
 }
 
@@ -201,3 +203,22 @@ button{
     margin-bottom: 10px;
     border-color: #ffffff3b;
 }
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #020617;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.imagem-vinicola {
+    max-width: 80%;
+    height: auto;
+    display: block;  
+    margin: 0 auto; 
+  }
