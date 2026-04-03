@@ -10,15 +10,19 @@
 
     <!-- MENU -->
     <header>
+
         <div style="display: flex; align-items: center;">
-            <img style="width: 100px; height: auto;" src="imgs/logo.png" alt="Logo da Vinheria Agnello" href="index.html">
+            <img style="width: 100px; height: auto;" src="assets/imgs/logo.png" alt="Logo da Vinheria Agnello" href="index.html">
             <h1> Vinheria Agnello</h1>
+
         </div>
         <nav class="menu">
+
             <a class="menu-link-selecionado" href="index.html">Início</a>
             <a class="menu-link" href="produtos.html">Produtos</a>
-            <a class="menu-link" href="sobre.html">História</a>
+            <a class="menu-link" href="pages/Historia.html">Sobre</a>
             <a class="menu-link" href="contato.html">Contato</a>
+
         </nav>
     </header>
 
@@ -27,20 +31,23 @@
     
     <!-- bloco -->
     <div class="bloco">
+
         <div class="bloco-topo">
-            <img src="imgs/taca-de-vinho.png" alt="Taça de vinho">
+
+            <img src="assets/imgs/taca-de-vinho.png" alt="Taça de vinho">
             <h2>Descubra o vinho perfeito para cada momento</h2>
+
         </div>
         
         <div class="bloco-conteudo">
 
             <div class="bloco-texto">
+
                 <p>Descubra o vinho ideal e transforme cada momento em uma experiência única.</p>
                 <button class="button">Explorar vinhos</button>
+
             </div>
-
         </div>
-
     </div>
 
     <hr>
@@ -49,48 +56,58 @@
     <div class="bloco">
         
         <div class="bloco-topo">
-            <img src="imgs/vinho.png" alt="Taca de vinho"> 
+
+            <img src="assets/imgs/vinho.png" alt="Taca de vinho"> 
             <h2>Vinhos em destaque</h2>
+
         </div>
         <div class="bloco-conteudo">
             
         
             <div class="produto">
                 <div>
-                    <img src="imgs/vinho_tinto.jpg" alt="Vinho Tinto Reserva">
+
+                    <img src="assets/imgs/vinho_tinto.jpg" alt="Vinho Tinto Reserva">
                     <h3>Vinho Tinto Reserva</h3>
                     <p>Tipo: Tinto</p>
                     <p>Harmoniza com carnes</p>
                     <button href="produtos.html">Ver mais</button>
+
                 </div>
 
             </div>
             <div class="produto">
                 <div>
-                    <img src="imgs/vinho_rose.webp" alt="Vinho Rosé Premium">
+
+                    <img src="assets/imgs/vinho_rose.webp" alt="Vinho Rosé Premium">
                     <h3>Vinho Rosé Premium</h3>
                     <p>Tipo: Rosé</p>
                     <p>Harmoniza com saladas</p>
                     <button href="produtos.html">Ver mais</button>
+
                 </div>
             </div>
             <div class="produto">
                 <div>
-                    <img src="imgs/vinho_branco_seco.jpg" alt="Vinho Branco Seco">
+
+                    <img src="assets/imgs/vinho_branco_seco.jpg" alt="Vinho Branco Seco">
                     <h3>Vinho Branco Seco</h3>
                     <p>Tipo: Branco</p>
                     <p>Harmoniza com peixes</p>
                     <button href="produtos.html">Ver mais</button>
+
                 </div>
             </div>
 
             <div class="produto">
                 <div>
-                    <img src="imgs/vinho_espumante.jpg" alt="Vinho Espumante">
+
+                    <img src="assets/imgs/vinho_espumante.jpg" alt="Vinho Espumante">
                     <h3>Vinho Espumante</h3>
                     <p>Tipo: Espumante</p>
                     <p>Ideal para celebrações</p>
                     <button href="produtos.html">Ver mais</button>
+
                 </div>
             </div>
             
@@ -101,42 +118,67 @@
 
     <!-- SOBRE -->
     <div class="bloco">
-        <div>
+        <div class="bloco-topo">
+
+            <img src="assets/imgs/sobre.png" alt="">
             <h2>Sobre a Vinheria</h2>
+
         </div>
+
+        <div class="bloco-conteudo"> 
         
+            <div class="bloco-texto">
+                <p>
+                Há mais de 15 anos oferecendo vinhos selecionados com qualidade e
+                armazenamento controlado.
+                </p>
 
-        <p>
-            Há mais de 15 anos oferecendo vinhos selecionados com qualidade e
-            armazenamento controlado.
-        </p>
+                <p>
+                Atendimento especializado para ajudar você a escolher o vinho ideal.
+                </p>
 
-        <p>
-            Atendimento especializado para ajudar você a escolher o vinho ideal.
-        </p>
-        <button>Mais sobre nossa história</button>
+                <button class="button">Mais sobre nossa história</button>
+
+            </div>
+        </div>
     </div>
 
     <hr>
 
     <!-- CONTATO -->
-    <section>
+    <div class="bloco">
         <h2>Fale conosco</h2>
 
         <p>Precisa de ajuda? Fale com um especialista.</p>
-        <input type="text" placeholder="Seu nome">
-        <input type="email" placeholder="Seu email">
         <div class="botao">
-            <button>WhatsApp</button>
+            <button class="button">Entrar em contato</button>
         </div>
         
-    </section>
+    </div>
 
     <hr>
 
     <!-- RODAPÉ -->
-    <footer>
-        <p>&copy; 2026 Vinheria Agnello</p>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <h2>Vinheria Agnello</h2>
+
+            <p>© 2026 Todos os direitos reservados</p>
+
+            <div class="footer-info">
+                <p>📍 Endereço: Algum lugar, 123 - São Paulo, SP</p>
+                <p>📞 Telefone: (99) 99999-9999</p>
+                <p>📸 Instagram: @vinheriaagnello</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Início</a>
+                <a href="#">Produtos</a>
+                <a href="#">Contato</a>
+            </div>
+
+        </div>
     </footer>
 
 </body>
