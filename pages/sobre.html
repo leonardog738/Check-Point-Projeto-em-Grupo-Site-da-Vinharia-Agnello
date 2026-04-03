@@ -19,7 +19,7 @@
         <nav class="menu">
             <a class="menu-link" href="/index.html">Início</a>
             <a class="menu-link" href="produtos.html">Produtos</a>
-            <a class="menu-link-selecionado" href="sobre.html">História</a>
+            <a class="menu-link-selecionado" href="sobre.html">Sobre</a>
             <a class="menu-link" href="contato.html">Contato</a>
         </nav>
     </header>
@@ -29,8 +29,10 @@
     <!-- SOBRE -->
 
     <div class="bloco">
-
-        <h1>Sobre a Vinheria Agnello</h1>
+        <div class="bloco-topo">
+            <img src="/assets/imgs/sobre.png" alt="sobre" class="imagem-sobre">
+            <h1>Sobre a Vinheria Agnello</h1>
+        </div>
 
         <br>
 
@@ -86,13 +88,40 @@
 
         </div>
 
-        <img src="/assets/imgs/Campo.jpg" alt="Vinicola" class="imagem-vinicola">
+        <img style="width: 100%; height: auto; border-radius: 20px;" src="/assets/imgs/Campo.jpg" alt="Vinicola" class="imagem-vinicola">
 
     </div>
 
     <!-- RODAPÉ -->
-    <footer>
-        <p>&copy; 2026 Vinheria Agnello</p>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <h2>Vinheria Agnello</h2>
+
+            <p>© 2026 Todos os direitos reservados</p>
+
+            <div style="display: flex;justify-content: center;align-items: center;">
+                    <img style="width: 30px; height: 30px;" src="/assets/imgs/localizacao.png" alt="localização">
+                    <p>Endereço: Algum lugar, 123 - São Paulo, SP</p>
+                </div>
+                <div style="display: flex;justify-content: center;align-items: center;">
+                    <img style="width: 30px; height: 30px;" src="/assets/imgs/whatsapp.png" alt="localização">
+                    <p> Telefone: (99) 99999-9999</p>
+                </div>
+                <div style="display: flex;justify-content: center;align-items: center;">
+                    <img style="width: 30px; height: 30px;" src="/assets/imgs/instagram.png" alt="localização">
+                    <p> Instagram: @vinheriaagnello</p>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <a href="../index.html">Início</a>
+                <a href="pages/produtos.html">Produtos</a>
+                <a href="pages/sobre.html">Sobre</a>
+                <a href="pages/contato.html">Contato</a>
+            </div>
+
+        </div>
     </footer>
 
 </body>

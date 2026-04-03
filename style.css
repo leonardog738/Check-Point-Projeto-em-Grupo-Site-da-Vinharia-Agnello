@@ -88,6 +88,11 @@ header {
     height: 45px;
 }
 
+.bloco-topo h1 {
+    color: #f1f5f9;
+    font-size: 28px;
+}
+
 .bloco-topo h2 {
     color: #f1f5f9;
     font-size: 24px;
@@ -222,7 +227,7 @@ button {
 }
 
 .footer p {
-    font-size: 14px;
+    font-size: 18px;
     margin: 5px 0;
     color: #ccc;
 }
