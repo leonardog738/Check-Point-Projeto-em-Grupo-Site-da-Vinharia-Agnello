@@ -162,6 +162,41 @@ button:hover {
     padding: 40px 20px;
     text-align: center;
 }
+/*Blocos de Pesquisa*/
+.pesquisa{
+    display: flex; 
+    justify-content: center;
+}
+.bloco-selecao {
+    border: 2px solid #ffffff5f;
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+    max-width: 1800px;
+    margin: 40px auto;
+    background: linear-gradient(135deg, #1e1b4b, #312e81);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+
+.bloco-selecao:focus-within {
+    
+    border: 2px solid #ffffff;
+    color: #000000;
+}
+.bloco-pesquisa {
+    border: 2px solid #ffffff5f;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1800px;
+    color: #ffffff;
+    margin: 40px auto;
+    background: linear-gradient(135deg, #1e1b4b, #312e81);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
 
 /* ========================= */
 /* 📱 RESPONSIVIDADE */
