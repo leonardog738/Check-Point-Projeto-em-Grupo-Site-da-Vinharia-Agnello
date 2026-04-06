@@ -260,3 +260,46 @@ button:hover {
     font-size: 14px;
   }
 }
+
+/* ===== PÁGINA DE CONTATO ===== */
+
+.contato {
+    background: linear-gradient(135deg, #020617, #1e293b);
+}
+
+/* CENTRALIZAR */
+.contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* CAIXA */
+.contato-box {
+    background-color: #020617;
+    padding: 40px;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+/* TÍTULO */
+.contato-box h2 {
+    margin-bottom: 20px;
+    color: #7c3aed;
+}
+
+/* INPUTS */
+.input,
+.textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #1e293b;
+    color: white;
+}
