@@ -8,6 +8,8 @@
 - *570884* --- **Matheus Martins Santos**
 - *568834* --- **Kaio Nincao Maia Dias**
 
+Obs: **Kaue Fernando subiu o commit como unknown, pois o commit bugou** 
+
 **🍷 Vinharia Agnello**
 *Descrição do Projeto*
 
