@@ -5,11 +5,11 @@
     <meta name="keywords">
     <meta name="description" content="Site de venda de vinhos">
     <title>Vinheria Agnello</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+    
     <!-- MENU -->
     <header>
 
@@ -29,29 +29,52 @@
     </header>
 
     <hr>
-
-    
+    <br>
     <!-- bloco -->
-    <div class="bloco">
-
-        <div class="bloco-topo">
-
-            <img src="assets/imgs/taca-de-vinho.png" alt="Taça de vinho">
-            <h2>Descubra o vinho perfeito para cada momento</h2>
-
-        </div>
+    <!-- BANNER ANIMADO --> 
+    
+    <div class="banner-container" style="position: relative;">
         
-        <div class="bloco-conteudo">
-
-            <div class="bloco-texto">
-
-                <p>Descubra o vinho ideal e transforme cada momento em uma experiência única.</p>
-                    <button class="button" onclick="window.location.href='pages/produtos.html'">Explorar vinhos</button>
-
-            </div>
+    <div class="banner-slider" id="slider">
+ 
+      <!-- Slide 1: fundo roxo limpo (use fundo_roxo.png) -->
+      <div class="slide">
+        <img src="assets/imgs/banner1.png" alt="Vinheria Agnello">
+      </div>
+ 
+      <!-- Slide 2: banner principal -->
+      <div class="slide">
+        <img src="https://t4.ftcdn.net/jpg/02/39/75/13/360_F_239751397_DpKJ0EKfyp9hwjO0d1UBeaaWtl5t9FPD.jpg" alt="Adega">
+        <div class="slide-text">
+          As melhores safras selecionadas
+          <br>
+          <input type="button" class="button_slider" value="Explorar vinhos"
+            onclick="window.location.href='pages/produtos.html'">
         </div>
+      </div>
+ 
+      <!-- Slide 3 -->
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1516594915697-87eb3b1c14ea?q=80&w=1200&h=400&fit=crop" alt="Brinde">
+        <div class="slide-text">
+          Sobre a Vinheria Agnello
+          <br>
+          <input type="button" class="button_slider" value="Explore nossa história"
+            onclick="window.location.href='pages/sobre.html'">
+        </div>
+      </div>
+ 
+      <!-- Slide 4 -->
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1506377247377-2a5b3b0ca7df?q=80&w=1200&h=400&fit=crop" alt="Vinhedos">
+        <div class="slide-text">Tradição em cada colheita</div>
+      </div>
+ 
     </div>
-
+ 
+  </div>
+    
+    <br>
     <hr>
     
     <!-- PRODUTOS -->

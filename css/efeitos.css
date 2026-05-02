@@ -1,0 +1,69 @@
+.menu-link:hover {
+  border-color: #fff;
+}
+
+
+.produto:hover {
+  transform: translateY(-5px);
+  border: 2px solid #ffffff5f;
+}
+
+
+button:hover {
+  border-color: #fff;
+  background-color: #6d28d9;
+  transform: scale(1.05);
+}
+
+.banner-container { 
+  
+    width: 100%; 
+    overflow: hidden; 
+    position: relative; 
+    height: 400px; /* Altura do seu banner */ 
+    background-color: #000; } /* Faixa longa que contém as imagens e faz o movimento */ 
+
+.banner-slider { 
+    display: flex; 
+    width: 400%; 
+    height: 100%; 
+    animation: slider-animacao 15s infinite ease-in-out; 
+} 
+/* Cada slide individual */ 
+.slide { 
+    width: 100%; 
+    position: relative; 
+} 
+.slide img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    filter: brightness(0.7); 
+} 
+/* Texto sobre a imagem */ 
+.slide-text { 
+    position: absolute;
+    bottom: 20%; 
+    left: 10%; 
+    color: white; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5); 
+    font-family: sans-serif; 
+} 
+/* Lógica da animação (0% a 100%) */ 
+@keyframes slider-animacao { 
+    0% { transform: translateX(0); } 
+    30% { transform: translateX(0); } 
+    33% { transform: translateX(-25%); } 
+    63% { transform: translateX(-25%); } 
+    66% { transform: translateX(-50%); } 
+    96% { transform: translateX(-50%); } 
+    100% { transform: translateX(-75%); } 
+}
+
+.button_slider:hover {
+    border-color: #fff;
+    background-color: #6d28d9;
+    transform: scale(1.05);
+}

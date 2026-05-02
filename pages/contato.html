@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="keywords">
     <meta name="description" content="Site de venda de vinhos">
-    <title>Contato - Vinheria Agnello</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>Vinheria Agnello</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 
 <main class="bloco-conteudo" style="display: flex; justify-content: center ;align-items: center;">
     
-        <div class="bloco" style="width: 400px; height: auto;">
+        <form class="bloco" style="width: 400px; height: auto;">
             
             <div class="bloco-conteudo">
                 <h2>Fale conosco</h2>
@@ -50,24 +50,34 @@
                 </button>
             </div>
 
-        </div>
+        </form>
     </main>
     <script>
-const botaoWhatsapp = document.getElementById("btnWhatsapp");
+        const botaoWhatsapp = document.getElementById("btnWhatsapp");
 
-botaoWhatsapp.addEventListener("click", function () {
-    const nome = document.getElementById("nome").value;
-    const duvida = document.getElementById("duvida").value;
+        botaoWhatsapp.addEventListener("click", function () {
+            // Pegamos os valores no exato momento do clique
+            const nome = document.getElementById("nome").value;
+            const duvida = document.getElementById("duvida").value;
 
-    const mensagem = `Olá, meu nome é ${nome} e tenho uma dúvida: ${duvida}`;
-    const mensagemCodificada = encodeURIComponent(mensagem);
+            // Validação: Checa se os campos não estão vazios ou apenas com espaços
+            if (nome.trim() !== "" && duvida.trim() !== "") {
+                
+                const mensagem = `Olá, meu nome é ${nome} e tenho uma dúvida: ${duvida}`;
+                const mensagemCodificada = encodeURIComponent(mensagem);
 
-    const numero = "5511999999999";
-    const linkWhatsapp = `https://wa.me/${numero}?text=${mensagemCodificada}`;
+                const numero = "5511999999999"; // Substitua pelo seu número real
+                const linkWhatsapp = `https://wa.me/${numero}?text=${mensagemCodificada}`;
 
-    window.open(linkWhatsapp, "_blank");
-});
-</script> 
+                window.open(linkWhatsapp, "_blank");
+                
+            } else {
+                // Alerta caso o usuário esqueça de preencher algo
+                alert("Por favor, preencha seu nome e sua dúvida antes de enviar.");
+            }
+        });
+        
+    </script> 
 
 <!-- RODAPÉ -->
     <footer class="footer">
