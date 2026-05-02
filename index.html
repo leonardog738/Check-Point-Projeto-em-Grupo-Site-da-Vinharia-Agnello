@@ -5,7 +5,7 @@
     <meta name="keywords">
     <meta name="description" content="Site de venda de vinhos">
     <title>Vinheria Agnello</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
@@ -14,21 +14,22 @@
     <header>
 
         <div style="display: flex; align-items: center;">
-            <img style="width: 100px; height: auto;" onclick="window.location.href='index.html'" src="assets/imgs/logo.png" alt="Logo da Vinheria Agnello" href="index.html">
+            <img style="width: 100px; height: auto;" onclick="window.location.href='index.html'" src="src/assets/imgs/logo.png" alt="Logo da Vinheria Agnello" href="index.html">
             <h1> Vinheria Agnello</h1>
 
         </div>
         <nav class="menu">
 
-            <a class="menu-link-selecionado" href="../index.html">Início</a>
-            <a class="menu-link" href="pages/produtos.html">Produtos</a>
-            <a class="menu-link" href="pages/sobre.html">Sobre</a>
-            <a class="menu-link" href="pages/contato.html">Contato</a>
+            <a class="menu-link-selecionado" href="index.html">Início</a>
+            <a class="menu-link" href="src/pages/produtos.html">Produtos</a>
+            <a class="menu-link" href="src/pages/sobre.html">Sobre</a>
+            <a class="menu-link" href="src/pages/contato.html">Contato</a>
 
         </nav>
     </header>
 
     <hr>
+
     <br>
     <!-- bloco -->
     <!-- BANNER ANIMADO --> 
@@ -39,7 +40,7 @@
  
       <!-- Slide 1: fundo roxo limpo (use fundo_roxo.png) -->
       <div class="slide">
-        <img src="assets/imgs/banner1.png" alt="Vinheria Agnello">
+        <img src="src/assets/imgs/banner1.png" alt="Vinheria Agnello">
       </div>
  
       <!-- Slide 2: banner principal -->
@@ -49,7 +50,7 @@
           As melhores safras selecionadas
           <br>
           <input type="button" class="button_slider" value="Explorar vinhos"
-            onclick="window.location.href='pages/produtos.html'">
+            onclick="window.location.href='src/pages/produtos.html'">
         </div>
       </div>
  
@@ -60,7 +61,7 @@
           Sobre a Vinheria Agnello
           <br>
           <input type="button" class="button_slider" value="Explore nossa história"
-            onclick="window.location.href='pages/sobre.html'">
+            onclick="window.location.href='src/pages/sobre.html'">
         </div>
       </div>
  
@@ -82,7 +83,7 @@
         
         <div class="bloco-topo">
 
-            <img src="assets/imgs/vinho.png" alt="Taca de vinho"> 
+            <img src="src/assets/imgs/vinho.png" alt="Taca de vinho"> 
             <h2>Vinhos em destaque</h2>
 
         </div>
@@ -92,11 +93,11 @@
             <div class="produto">
                 <div>
 
-                    <img src="assets/imgs/vinho_tinto.jpg" alt="Vinho Tinto Reserva">
+                    <img src="src/assets/imgs/vinho_tinto.jpg" alt="Vinho Tinto Reserva">
                     <h3>Vinho Tinto Reserva</h3>
                     <p>Tipo: Tinto</p>
                     <p>Harmoniza com carnes</p>
-                    <button onclick="window.location.href='pages/produtos.html'">Ver todos</button>
+                    <button onclick="window.location.href='src/pages/produtos.html'">Ver todos</button>
 
                 </div>
 
@@ -104,22 +105,22 @@
             <div class="produto">
                 <div>
 
-                    <img src="assets/imgs/vinho_rose.webp" alt="Vinho Rosé Premium">
+                    <img src="src/assets/imgs/vinho_rose.webp" alt="Vinho Rosé Premium">
                     <h3>Vinho Rosé Premium</h3>
                     <p>Tipo: Rosé</p>
                     <p>Harmoniza com saladas</p>
-                    <button onclick="window.location.href='pages/produtos.html'">Ver todos</button>
+                    <button onclick="window.location.href='src/pages/produtos.html'">Ver todos</button>
 
                 </div>
             </div>
             <div class="produto">
                 <div>
 
-                    <img src="assets/imgs/vinho_branco_seco.jpg" alt="Vinho Branco Seco">
+                    <img src="src/assets/imgs/vinho_branco_seco.jpg" alt="Vinho Branco Seco">
                     <h3>Vinho Branco Seco</h3>
                     <p>Tipo: Branco</p>
                     <p>Harmoniza com peixes</p>
-                    <button onclick="window.location.href='pages/produtos.html' ">Ver todos</button>
+                    <button onclick="window.location.href='src/pages/produtos.html' ">Ver todos</button>
 
                 </div>
             </div>
@@ -127,11 +128,11 @@
             <div class="produto">
                 <div>
 
-                    <img src="assets/imgs/vinho_espumante.jpg" alt="Vinho Espumante">
+                    <img src="src/assets/imgs/vinho_espumante.jpg" alt="Vinho Espumante">
                     <h3>Vinho Espumante</h3>
                     <p>Tipo: Espumante</p>
                     <p>Ideal para celebrações</p>
-                    <button onclick="window.location.href='pages/produtos.html'">Ver todos</button>
+                    <button onclick="window.location.href='src/pages/produtos.html'">Ver todos</button>
 
                 </div>
             </div>
@@ -145,7 +146,7 @@
     <div class="bloco">
         <div class="bloco-topo">
 
-            <img src="assets/imgs/sobre.png" alt="">
+            <img src="src/assets/imgs/sobre.png" alt="">
             <h2>Sobre a Vinheria</h2>
 
         </div>
@@ -162,7 +163,7 @@
                 Atendimento especializado para ajudar você a escolher o vinho ideal.
                 </p>
 
-                <button class="button" onclick="window.location.href='pages/sobre.html'">Mais sobre nossa história</button>
+                <button class="button" onclick="window.location.href='src/pages/sobre.html'">Mais sobre nossa história</button>
 
             </div>
         </div>
@@ -174,7 +175,7 @@
     <div class="bloco">
         <div class="bloco-topo">
 
-            <img src="assets/imgs/contato.png" alt="">
+            <img src="src/assets/imgs/contato.png" alt="">
             <h2>Fale conosco</h2>
 
         </div>
@@ -182,7 +183,7 @@
 
             <p>Precisa de ajuda? Fale com um especialista.</p>
             <div class="botao">
-                <button class="button" onclick="window.location.href='pages/contato.html'">Entrar em contato</button>
+                <button class="button" onclick="window.location.href='src/pages/contato.html'">Entrar em contato</button>
             </div>
 
         </div>
@@ -209,15 +210,15 @@
             <div class="footer-info">
                 
                 <div style="display: flex;justify-content: center;align-items: center;">
-                    <img style="width: 30px; height: 30px;" src="assets/imgs/localizacao.png" alt="localização">
+                    <img style="width: 30px; height: 30px;" src="src/assets/imgs/localizacao.png" alt="localização">
                     <p>Endereço: Algum lugar, 123 - São Paulo, SP</p>
                 </div>
                 <div style="display: flex;justify-content: center;align-items: center;">
-                    <img style="width: 30px; height: 30px;" src="assets/imgs/whatsapp.png" alt="localização">
+                    <img style="width: 30px; height: 30px;" src="src/assets/imgs/whatsapp.png" alt="localização">
                     <p> Telefone: (99) 99999-9999</p>
                 </div>
                 <div style="display: flex;justify-content: center;align-items: center;">
-                    <img style="width: 30px; height: 30px;" src="assets/imgs/instagram.png" alt="localização">
+                    <img style="width: 30px; height: 30px;" src="src/assets/imgs/instagram.png" alt="localização">
                     <p> Instagram: @vinheriaagnello</p>
                 </div>
                 
@@ -225,10 +226,10 @@
             </div>
 
             <div class="footer-links">
-                <a href="index.html">Início</a>
-                <a href="pages/produtos.html">Produtos</a>
-                <a href="pages/sobre.html">Sobre</a>
-                <a href="pages/contato.html">Contato</a>
+                <a href="../index.html">Início</a>
+                <a href="src/pages/produtos.html">Produtos</a>
+                <a href="src/pages/sobre.html">Sobre</a>
+                <a href="src/pages/contato.html">Contato</a>
             </div>
 
         </div>
