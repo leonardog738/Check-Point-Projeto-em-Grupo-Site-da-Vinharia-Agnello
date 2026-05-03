@@ -24,6 +24,16 @@ header {
   flex-wrap: wrap; /* permite quebrar no mobile */
 }
 
+/* Transformação 1 — logo do header */
+header img {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+header img:hover {
+  transform: scale(1.15) rotate(5deg);
+}
+
 /* MENU */
 nav {
   display: flex;
@@ -153,6 +163,15 @@ button:hover {
   width: 100%;
   max-width: 250px;
   border-radius: 15px;
+}
+
+/* Transformação 2 — imagens dos produtos */
+.produto img {
+  transition: transform 0.3s ease;
+}
+
+.produto img:hover {
+  transform: translateY(-8px) scale(1.05);
 }
 
 /* FOOTER */
