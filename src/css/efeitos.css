@@ -67,3 +67,17 @@ button:hover {
     background-color: #6d28d9;
     transform: scale(1.05);
 }
+
+.bloco-texto_sobre::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+    float: left;
+    margin-right: 2px;
+    color: #7c3aed;
+    line-height: 1;
+}
+
+::selection {
+    background-color: #7c3aed;
+    color: #ffffff;
+}
