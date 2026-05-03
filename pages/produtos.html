@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vinheria Agnello</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+
+        <div style="display: flex; align-items: center;">
+            <img style="width: 100px; height: auto;" onclick="window.location.href='../index.html'" src="../assets/imgs/logo.png" alt="Logo da Vinheria Agnello" href="index.html">
+            <h1> Vinheria Agnello</h1>
+
+        </div>
+        <nav class="menu">
+
+            <a class="menu-link" href="../index.html">Início</a>
+            <a class="menu-link-selecionado" href="produtos.html">Produtos</a>
+            <a class="menu-link" href="sobre.html">Sobre</a>
+            <a class="menu-link" href="contato.html">Contato</a>
+
+        </nav>
+    </header>
+
+    <hr>
+
+
+
+    <div class="pesquisa">
+        <div class="bloco-conteudo" style="justify-content: center; width: 50%;">
+            <img style="width: 45px; height: 45px;" src="../assets/imgs/pesquisa.png" alt="Ícone de pesquisa">
+            <input class="bloco-pesquisa" style="width: 100%;" placeholder="Pesquisar vinhos..." type="text" name="pesquisa" id="pesquisa">
+        </div>
+
+
+        <div class="bloco-conteudo" style="justify-content: center;width: 20%; ">
+            <img style="width: 45px; height: 45px;" src="../assets/imgs/filtro.png" alt="filtro">
+            <select class="bloco-selecao" style="width: 100%;" name="tipo" id="tipo">
+                <option value="">Selecione</option>
+                <option value="tinto">Tinto</option>
+                <option value="branco">Branco</option>
+                <option value="rose">Rosé</option>
+                <option value="espumante">Espumante</option>
+
+            </select>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- PRODUTOS -->
+    <div class="bloco">
+        <ul style="
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 20px; 
+            padding: 0; 
+            list-style: none; 
+            justify-content: center;
+        ">
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/vinho_tinto.jpg" alt="Vinho Tinto Reserva" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Casal Garcia Tinto</h3>
+                <p>Tipo: Tinto</p>
+                <p>Harmoniza com carnes</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/vinho_rose.webp" alt="Vinho Rosé Premium" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Monte do Gaio Rosé</h3>
+                <p>Tipo: Rosé</p>
+                <p>Harmoniza com saladas</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/vinho_branco_seco.jpg" alt="Vinho Branco Seco" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Casa Perini Branco Seco</h3>
+                <p>Tipo: Branco</p>
+                <p>Harmoniza com peixes</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/vinho_espumante.jpg" alt="Vinho Espumante" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Salton Espumante Brut</h3>
+                <p>Tipo: Espumante</p>
+                <p>Ideal para celebrações</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/tinto.1" alt="Vinho Tinto Reserva" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Vinho Cabernet Sauvignon Reservado da Concha y Toro</h3>
+                <p>Tipo: Tinto</p>
+                <p>Harmoniza com carnes</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/rose.1" alt="Vinho Rosé Premium" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Domaine La Chatarde Rosé</h3>
+                <p>Tipo: Rosé</p>
+                <p>Harmoniza com saladas</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/vinhio_branco_1.jpg" alt="Vinho Branco" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Vinho Branco Frisante Carmelina Lambrusco</h3>
+                <p>Tipo: Branco</p>
+                <p>Harmoniza com peixes</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/espumante.4" alt="Vinho Espumante" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Espumante Garibaldi Moscatel</h3>
+                <p>Tipo: Espumante</p>
+                <p>Ideal para celebrações</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/tinto.2" alt="Vinho Tinto Reserva" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Vinho Tinto Castello Dalba vinhas velhas</h3>
+                <p>Tipo: Tinto</p>
+                <p>Harmoniza com carnes</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/rose.2" alt="Vinho Rosé Premium" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>99 Rosas Rosé</h3>
+                <p>Tipo: Rosé</p>
+                <p>Harmoniza com saladas</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/vinho_branco_2.jpg" alt="Vinho Branco Seco" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>Lambrusco Sorbello Branco</h3>
+                <p>Tipo: Branco</p>
+                <p>Harmoniza com peixes</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+            <li class="produto" style="width: calc(25% - 20px); min-width: 250px; display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+                <img src="../assets/imgs/espumante.2.jpg" alt="Vinho Espumante" style="width: 100%; max-width: 200px; border-radius: 15px;">
+                <h3>La Marca Prosecco</h3>
+                <p>Tipo: Espumante</p>
+                <p>Ideal para celebrações</p>
+                <button onclick="window.location.href='contato.html'" style="width: 80%; margin-top: 10px;">Comprar</button>
+            </li>
+
+        </ul>
+        <div id="not-found" style="display: none; text-align: center; padding: 40px;">
+            <p style="font-size: 20px; color: #cbd5f5; margin-bottom: 20px;">Ops! Não encontramos nenhum vinho com esses filtros.</p>
+            <button onclick="limparFiltros()">Limpar Pesquisa</button>
+            <button onclick="window.location.href='contato.html'">Consultar um especialista</button>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <h2>Vinheria Agnello</h2>
+
+            <p>© 2026 Todos os direitos reservados</p>
+
+            <div class="footer-info">
+
+                <div style="display: flex;justify-content: center;align-items: center;">
+                    <img style="width: 30px; height: 30px;" src="../assets/imgs/localizacao.png" alt="localização">
+                    <p>Endereço: Algum lugar, 123 - São Paulo, SP</p>
+                </div>
+                <div style="display: flex;justify-content: center;align-items: center;">
+                    <img style="width: 30px; height: 30px;" src="../assets/imgs/whatsapp.png" alt="localização">
+                    <p> Telefone: (99) 99999-9999</p>
+                </div>
+                <div style="display: flex;justify-content: center;align-items: center;">
+                    <img style="width: 30px; height: 30px;" src="../assets/imgs/instagram.png" alt="localização">
+                    <p> Instagram: @vinheriaagnello</p>
+                </div>
+
+
+            </div>
+
+            <div class="footer-links">
+                <a href="../index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+        </div>
+        <script src="../js/script.js"></script>
+    </footer>
+
+</body>
+
+</html>
