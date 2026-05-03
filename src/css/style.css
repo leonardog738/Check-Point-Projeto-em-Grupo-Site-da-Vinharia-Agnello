@@ -341,3 +341,15 @@ button {
   border: 2px solid transparent;
 }
 
+.bloco-texto_sobre {
+  flex: 1;
+}
+
+.bloco-texto_sobre p {
+  font-size: 20px;
+  color: #cbd5f5;
+  margin-bottom: 15px;
+}
+
+
+
