@@ -1,3 +1,6 @@
+@import url("efeitos.css");
+
+
 /* RESET */
 * {
   margin: 0;
@@ -57,9 +60,6 @@ nav {
   background-color: #7c3aed;
 }
 
-.menu-link:hover {
-  border-color: #fff;
-}
 
 /* BLOCO */
 .bloco {
@@ -119,11 +119,7 @@ button {
   border: 2px solid transparent;
 }
 
-button:hover {
-  border-color: #fff;
-  background-color: #6d28d9;
-  transform: scale(1.05);
-}
+
 
 /* IMAGEM */
 .bloco-imagem {
@@ -154,10 +150,7 @@ button:hover {
   transition: 0.3s;
 }
 
-.produto:hover {
-  transform: translateY(-5px);
-  border: 2px solid #ffffff5f;
-}
+
 
 .produto img {
   width: 100%;
@@ -279,3 +272,72 @@ button:hover {
     font-size: 14px;
   }
 }
+
+/* ===== PÁGINA DE CONTATO ===== */
+
+.contato {
+    background: linear-gradient(135deg, #020617, #1e293b);
+}
+
+/* CENTRALIZAR */
+.contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* CAIXA */
+.contato-box {
+    background-color: #020617;
+    padding: 40px;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+/* TÍTULO */
+.contato-box h2 {
+    margin-bottom: 20px;
+    color: #7c3aed;
+}
+
+/* INPUTS */
+.input,
+.textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #1e293b;
+    color: white;
+}
+
+.slide-text {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  color: #fff;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+  max-width: 500px;
+  line-height: 1.3;
+}
+
+.button_slider {
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+

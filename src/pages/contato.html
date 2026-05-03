@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords">
+    <meta name="description" content="Site de venda de vinhos">
+    <title>Vinheria Agnello</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+ <!-- MENU -->
+    <header>
+
+        <div style="display: flex; align-items: center;">
+            <img style="width: 100px; height: auto;" onclick="window.location.href='../../index.html'" src="../assets/imgs/logo.png" alt="Logo da Vinheria Agnello" href="index.html">
+            <h1> Vinheria Agnello</h1>
+
+        </div>
+        <nav class="menu">
+
+            <a class="menu-link" href="../../index.html">Início</a>
+            <a class="menu-link" href="produtos.html">Produtos</a>
+            <a class="menu-link" href="sobre.html">Sobre</a>
+            <a class="menu-link-selecionado" href="contato.html">Contato</a>
+
+        </nav>
+    </header>
+
+<main class="bloco-conteudo" style="display: flex; justify-content: center ;align-items: center;">
+    
+        <form class="bloco" style="width: 400px; height: auto;">
+            
+            <div class="bloco-conteudo">
+                <h2>Fale conosco</h2>
+            </div>
+
+            <div class="bloco-conteudo">
+                <input id="nome" class="input" type="text" placeholder="Seu nome" required>
+            </div>
+
+            <div class="bloco-conteudo">
+                <textarea id="duvida" class="textarea" placeholder="Sua dúvida" rows="5" required></textarea>
+            </div>
+
+            <div class="bloco-conteudo">
+                <button class="btn-whatsapp" id="btnWhatsapp" style="margin-top: 10px;">
+                    Falar no WhatsApp
+                </button>
+            </div>
+
+        </form>
+    </main>
+    <script>
+        const botaoWhatsapp = document.getElementById("btnWhatsapp");
+
+        botaoWhatsapp.addEventListener("click", function () {
+            // Pegamos os valores no exato momento do clique
+            const nome = document.getElementById("nome").value;
+            const duvida = document.getElementById("duvida").value;
+
+            // Validação: Checa se os campos não estão vazios ou apenas com espaços
+            if (nome.trim() !== "" && duvida.trim() !== "") {
+                
+                const mensagem = `Olá, meu nome é ${nome} e tenho uma dúvida: ${duvida}`;
+                const mensagemCodificada = encodeURIComponent(mensagem);
+
+                const numero = "5511999999999"; // Substitua pelo seu número real
+                const linkWhatsapp = `https://wa.me/${numero}?text=${mensagemCodificada}`;
+
+                window.open(linkWhatsapp, "_blank");
+                
+            } else {
+                // Alerta caso o usuário esqueça de preencher algo
+                alert("Por favor, preencha seu nome e sua dúvida antes de enviar.");
+            }
+        });
+        
+    </script> 
+
+<!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <h2>Vinheria Agnello</h2>
+
+            <p>© 2026 Todos os direitos reservados</p>
+
+            <div style="display: flex;justify-content: center;align-items: center;">
+                    <img style="width: 30px; height: 30px;" src="../assets/imgs/localizacao.png" alt="localização">
+                    <p>Endereço: Algum lugar, 123 - São Paulo, SP</p>
+                </div>
+                <div style="display: flex;justify-content: center;align-items: center;">
+                    <img style="width: 30px; height: 30px;" src="../assets/imgs/whatsapp.png" alt="localização">
+                    <p> Telefone: (99) 99999-9999</p>
+                </div>
+                <div style="display: flex;justify-content: center;align-items: center;">
+                    <img style="width: 30px; height: 30px;" src="../assets/imgs/instagram.png" alt="localização">
+                    <p> Instagram: @vinheriaagnello</p>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="../../index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
