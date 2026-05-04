@@ -7,7 +7,7 @@
 - *571353* --- **Kaue Fernando Jaques Lopes**
 - *570884* --- **Matheus Martins Santos**
 - *568834* --- **Kaio Nincao Maia Dias**
-
+**CP 1**
 Obs: **Kaue Fernando subiu o commit como unknown, pois o commit bugou** 
 
 **🍷 Vinharia Agnello**
@@ -31,6 +31,14 @@ Exibe os vinhos disponíveis, com descrições e categorias.
 Página com informações de contato e formulário para comunicação com a empresa.
 *js (script.js)*
 Possui funcionalidades em JavaScript que permitem buscar produtos por nome e filtrar por tipo (tinto, rosé, branco e espumante).
+
+**CP 2**
+*Descrição do Projeto*
+
+Animações: Aplicadas na logo, produtos e botões de navegação para maior dinamismo.
+Seleção de texto: Destaque em cor roxa, com ênfase na letra inicial na página “Sobre”.
+Banner animado: Troca automática de imagens para exibição dinâmica de conteúdos.
+Estrutura: site adptado para nova estrutura
 
 
 **🌐 Acesso ao Projeto**
