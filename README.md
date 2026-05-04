@@ -33,12 +33,15 @@ Página com informações de contato e formulário para comunicação com a empr
 Possui funcionalidades em JavaScript que permitem buscar produtos por nome e filtrar por tipo (tinto, rosé, branco e espumante).
 
 **CP 2**
-*Descrição do Projeto*
+### Seção: Efeitos Visuais
 
-Animações: Aplicadas na logo, produtos e botões de navegação para maior dinamismo.
-Seleção de texto: Destaque em cor roxa, com ênfase na letra inicial na página “Sobre”.
-Banner animado: Troca automática de imagens para exibição dinâmica de conteúdos.
-Estrutura: site adptado para nova estrutura
+Esta seção descreve os recursos visuais utilizados para enriquecer a interface:
+
+* **Pseudo-classes**: Utilizadas para definir estados interativos dos elementos, como `:hover`, `:active` e `:focus`, aplicadas principalmente em botões e links de navegação para melhorar a resposta ao usuário.
+
+* **Pseudo-elementos**: Empregados para estilizações específicas, como `::first-letter` para destacar a letra inicial na página “Sobre” e `::selection` para personalizar a cor roxa na seleção de texto.
+
+* **Animações**: Implementadas com `@keyframes` e propriedades como `transition` e `transform`, aplicadas na logo, nos produtos e nos botões , garantindo uma navegação mais fluida e visualmente atrativa.
 
 
 **🌐 Acesso ao Projeto**
