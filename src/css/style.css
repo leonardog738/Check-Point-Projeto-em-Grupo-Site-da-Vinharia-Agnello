@@ -312,9 +312,11 @@ button {
     border-radius: 10px;
     border: none;
     outline: none;
+    border-color: none;
     background-color: #1e293b;
     color: white;
 }
+
 
 .slide-text {
   position: absolute;

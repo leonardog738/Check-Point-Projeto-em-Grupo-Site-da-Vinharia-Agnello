@@ -8,6 +8,18 @@
   border: 2px solid #ffffff5f;
 }
 
+.input:focus,
+.textarea:focus {
+    box-shadow: 0 0 5px #fff;
+    border: 1px solid #fff;
+    background-color: rgba(30, 41, 59, 0.7);
+    outline: none;
+}
+
+button:active {
+  transform: scale(0.95);
+  background-color: #6d28d9; 
+}
 
 button:hover {
   border-color: #fff;
